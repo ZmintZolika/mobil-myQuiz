@@ -7,6 +7,12 @@ final List<String> questions = [
   'What is the capital of Japan?',
   'What is the capital of Australia?',
   'What is the capital of Brazil?',
+  'What is the capital of Egypt?',
+  'What is the capital of Canada?',
+  // ... existing questions ...
+  'What is the capital of Russia?',
+  'What is the capital of China?',
+  'What is the capital of Mexico?',
 ];
 
 final List<Set<String>> answers = [
@@ -18,6 +24,12 @@ final List<Set<String>> answers = [
   {'Tokyo', 'Hiroshima', 'Yokohama', 'Osaka', 'Fukuoka'},
   {'Canberra', 'Melbourne', 'Sydney', 'Perth', 'Adelaide'},
   {'Brasília', 'Rio de Janeiro', 'São Paulo', 'Fortaleza', 'Salvador'},
+  {'Cairo'},
+  {'Ottawa', 'Vancouver', 'Montreal', 'Toronto', 'Quebec City'},
+  // ... existing answers ...
+  {'Moscow', 'Berlin', 'Vienna', 'Prague', 'Warsaw'},
+  {'Beijing', 'Shanghai', 'Guangzhou', 'Hangzhou', 'Chengdu'},
+  {'Mexico City', 'Monterrey', 'Puebla', 'Tampico', 'Durango'},
 ];
 
 final List<String> correctAnswers = [
@@ -29,4 +41,10 @@ final List<String> correctAnswers = [
   'Tokyo',
   'Canberra',
   'Brasília',
+  'Cairo',
+  'Ottawa',
+  // ... existing correct answers ...
+  'Moscow',
+  'Beijing',
+  'Mexico City',
 ];
